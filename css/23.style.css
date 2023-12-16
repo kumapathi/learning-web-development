@@ -1,0 +1,30 @@
+table,
+th,
+td {
+  border: 1px solid cadetblue;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+}
+
+th:hover {
+  background-color: coral;
+  color: blue;
+}
+
+td:hover {
+  background-color: green;
+  color: white;
+}
+
+.scrolltable {
+  overflow-x: scroll;
+  overflow-y: scroll;
+}

@@ -1,0 +1,34 @@
+div.a {
+  border: 2px solid red;
+}
+
+div.b {
+  border: 2px solid green;
+  display: inline;
+}
+
+span.a {
+  border: 2px solid blue;
+
+}
+
+span.b {
+  border: 2px solid brown;
+  display: block;
+}
+
+div.c {
+  border: 3px solid purple;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+}
+
+div.d {
+  border: 5px solid goldenrod;
+  height: 100px;
+  width: 500px;
+  margin: 25px;
+  display: inline-block;
+
+}

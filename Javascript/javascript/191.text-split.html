@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <h1>JavaScript String Methods</h1>
+  <h2>The split(). Method</h2>
+
+  <p id="demo"></p>
+
+  <script>
+    let text = "Hello";
+    const MyArr = text.split("");
+
+    text = "";
+    for (let i = 0; i < MyArr.length;
+      i++) {
+      text += MyArr[i] + "<br>"
+    }
+    document.getElementById("demo").innerHTML = text;
+  </script>
+</body>
+
+</html>

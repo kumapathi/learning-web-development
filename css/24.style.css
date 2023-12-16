@@ -1,0 +1,16 @@
+p{
+  background-color: orangered;
+}
+span{
+  background-color: cadetblue;
+}
+h1{
+  background-color: yellow;
+  font-size: large;
+  display: inline;
+}
+
+a{
+  background-color: yellowgreen;
+  display: block;
+}

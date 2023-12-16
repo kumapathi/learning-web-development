@@ -1,0 +1,29 @@
+body{
+  background-color: aquamarine;
+  color: fuchsia;
+}
+div{
+  border: 10px solid orangered;
+  margin-top: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+ }
+ p{
+  border: 10px outset orange;
+  margin: 50px 50px 50px 50px;
+ }
+ h4{
+  border: 10px inset darkgreen;
+  margin: 50px 75px 50px;
+ }
+ h6{
+  border: 10px groove mediumvioletred;
+  margin: 25px 85px;
+  font-size: 20px; 
+ }
+ h2{
+  border: 10px ridge royalblue;
+  margin: 85px;
+  font-size: 20px;
+ }

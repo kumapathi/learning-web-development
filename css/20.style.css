@@ -1,0 +1,26 @@
+body{
+  margin: 50px;
+}
+a{
+  background-color: brown;
+  color: cornsilk;
+  text-decoration: none;
+  border: 5px solid burlywood;
+  padding: 10px;
+}
+a:Link {
+color: white;
+text-decoration: none;
+}
+a:visited{
+color: aqua;
+text-decoration: none;
+}
+a:hover{
+color: chartreuse;
+text-decoration: none;
+}
+a:active{
+color:floralwhite;
+text-decoration: none;
+}

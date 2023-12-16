@@ -1,0 +1,46 @@
+<html>
+
+<head>
+  <script>
+    function func() {
+      const value = document.getElementById('companyname').value;
+      console.log(value);
+    }
+  </script>
+</head>
+<NLFORM>
+  <p>
+    Please Enter the Name of Your Company:<NLCOMPANYNAME>
+      <input type="text" id="companyname" name="companyname" onchange="func()">
+  </p>
+
+  <p>
+    Enter Your First Name: <NLFIRSTNAME>
+      <input type="text" 
+      id="firstname" 
+      name="firstname">
+  </p>
+
+  <p>
+    Enter your last name: <NLLASTNAME>
+  </p>
+
+<p>
+  Enter a contact email address:<NLEMAIL>
+</p>
+
+<p>
+  Enter a title for the message:<NLTITLE>
+</p>
+
+<p>
+  Enter your message here:<NLINCOMINGMESSAGE>
+</p>
+
+<p>
+ <input type="submit"
+ value="Submit Form">
+</p>
+</NLFORM>
+
+</html>

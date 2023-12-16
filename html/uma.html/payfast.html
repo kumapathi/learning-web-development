@@ -1,0 +1,54 @@
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+<?php
+require_once "config.php";
+ 
+$db = new DB;
+$arr_products = $db->get_products();
+?>
+<form action="process_payment.php" method="post">
+    <p>
+        <select name="product" required>
+            <?php foreach( $arr_products as $product ) : ?>
+                <option value="<?php echo $product['id']; ?>">
+                    <?php echo $product['name'].' - R'.$product['price']; ?>
+                </option>
+            <?php endforeach; ?>
+        </select>
+    </p>
+    <p>
+        <input type="text" name="name_first" placeholder="First Name*" required />
+    </p>
+    <p>
+        <input type="text" name="name_last" placeholder="Last Name*" required />
+    </p>
+    <p>
+        <input type="email" name="email_address" placeholder="Email*" required />
+    </p>
+    <input type="submit" value="Pay Now" />
+</form>

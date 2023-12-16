@@ -1,0 +1,32 @@
+button{
+  background-color: cornflowerblue;
+}
+button:hover{
+  background-color: brown;
+}
+
+input{
+  background-color: rgb(145, 238, 145);
+}
+input:focus{
+  background-color: darkcyan;
+}
+
+div{
+  background-color: yellow;
+}
+div:hover{
+  background-color: blueviolet;
+}
+
+section{
+  background-color: coral;
+}
+section p:first-child{
+  background-color: blue;
+  color: antiquewhite;
+}
+section p:last-child{
+  background-color: blueviolet;
+  color: darkgrey;
+}

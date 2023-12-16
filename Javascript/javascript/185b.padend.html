@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    
+    <h1>JavaScript String Methods</h1>
+    <h2>The padEnd() Method</h2>
+
+    <p>The padEnd() method pads a string at the end.</p>
+    <p>It pads the string with another string (multiple times) until it reaches a given lenght.</p>
+
+    <p id="demo"></p>
+
+    <script>
+      let numb = 5;
+      let text = numb.toString();
+
+      document.getElementById("demo").innerHTML = text.padEnd(4, "x");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+p{
+  border-width: 10px;
+  border-style: solid;
+  border-color: darkblue;
+  color: purple;
+}
+p1{
+  border-width: 10px;
+  border-style: solid;
+  border-color: darkred;
+}
+p2{
+  border-width: 10px;
+  border-style: dashed;
+  border-color: green;
+}
+p3{
+  border-width: 10px;
+  border-style: dotted;
+  border-color: blue;
+}
+p4{
+  border-width: 10px;
+  border-style: double;
+  border-color: purple;
+}
+p5{
+  border-width: 10px;
+  border-style: groove;
+  border-color: yellowgreen;
+}
+p6{
+  border-width: 10px;
+  border-style: ridge;
+  border-color: burlywood;
+}
+p7{
+  border-width: 10px;
+  border-style: inset;
+  border-color: magenta;
+}
+p8{
+  border-width: 10px;
+  border-style: outset;
+  border-color: cyan;
+}
+p9{
+  border-width: 10px;
+  border-style: hidden;
+  border-color:royalblue;
+ 
+}
+p10{
+  border-width: 10px;
+  border-style: none;
+  border-color: crimson;
+}
+h1{
+  border: 10px solid greenyellow;
+  text-align: center;
+}
+h2{
+  border: 10px inset rgb(240, 138, 5);
+  border-radius: 15px;
+  text-align: center;
+}
+h3{
+  border: 10px outset burlywood;
+  border-radius: 15px;
+  text-align: center;
+  background-color: brown;
+  color: gainsboro;
+}
+h4{
+  border: 10px groove royalblue;
+}

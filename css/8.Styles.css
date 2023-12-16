@@ -1,0 +1,49 @@
+input[type="text"]{
+  background-color: blueviolet;
+}
+input[type="button"]{
+  background-color: aqua;
+}
+
+[class="sample"]{
+  background-color: blue;
+  color: whitesmoke;
+  border: solid black;
+}
+
+[class="a"]{
+  background-color: red;
+  color: white;
+  border: solid blueviolet;
+}
+
+[class~="b"]{
+  background-color:yellow;
+  color: rebeccapurple;
+  border: solid blue;
+}
+
+
+[class|="c"]{
+  background-color: green;
+  color: whitesmoke;
+  border: solid red;
+}
+
+[class^="d"]{
+  background-color: goldenrod;
+  color: whitesmoke;
+  border: solid greenyellow;
+}
+
+[class$="f"]{
+  background-color: gray;
+  color: black;
+  border: solid blueviolet;
+}
+
+[class*="dl"]{
+  background-color: greenyellow;
+  color: black;
+  border: solid gray;
+}

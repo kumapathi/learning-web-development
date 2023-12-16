@@ -1,0 +1,34 @@
+p::first-line{
+  color: lightseagreen;
+  font-style: italic;
+  font-size: 20px;
+}
+h1::first-letter{
+  color: orangered;
+  font-size: 50px;
+  font-style: oblique;
+}
+h1::before{
+  content: '(More';
+}
+h1::after{
+  content:  'Is there';
+}
+::marker{
+  color: magenta;
+}
+::selection{
+  background-color: darkorange;
+  color: beige;
+}
+input::placeholder{
+  font-size: 20px;
+  color: blue;
+}
+input::file-selector-button{
+  border: 3px dotted red;
+  font-size: 20px;
+  padding: 10px;
+  background-color: yellow;
+
+}

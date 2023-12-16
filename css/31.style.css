@@ -1,0 +1,10 @@
+.set-overflow {
+  border: 5px solid salmon;
+  height: 100px;
+  width: 300px;
+  /* overflow: hidden; */
+  /* overflow: scroll; */
+  overflow: auto;
+  /* overflow-x: auto; */
+  /* overflow-y: auto; */
+}

@@ -1,0 +1,41 @@
+p{
+  background-color: black;
+  color: aliceblue;
+  border: 2px solid greenyellow;
+}
+h1{
+  background-color: blueviolet;
+  color: yellow;
+  border: 2px solid sandybrown;
+}
+
+.ram{
+  background-color: seagreen;
+  color: cornsilk;
+}
+.shyam{
+  border: 3px solid brown;
+}
+.demo{
+  background-color: yellow;
+  color: black;
+  border: 3px solid blue;
+}
+
+#india{
+  background-color: blue;
+  color: blanchedalmond;
+  border: 3px solid salmon;
+}
+#karnataka{
+  background-color: aqua;
+  color: blue;
+  border: 3px solid yellow;
+}
+
+*{
+  background-color: chartreuse;
+  color: blueviolet;
+  border: 3px solid black;
+  font-size: 20px;
+}

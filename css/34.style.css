@@ -1,0 +1,42 @@
+div{
+  background-color: lightseagreen;
+  border: 3px solid green;
+  padding: 20px;
+  color: white;
+}
+
+div:hover{
+  background-color: orange;
+  border-color: orangered;
+  padding: 40px;
+  color: cornsilk;
+}
+
+button:hover{
+  background-color: cornflowerblue;
+  color:blue;
+  padding: 10px;
+}
+
+input{
+  background-color: greenyellow;
+}
+input:focus{
+  background-color: blueviolet;
+}
+
+section{
+  background-color: gainsboro;
+}
+section :first-child{
+  background-color: orangered;
+}
+section :last-child{
+  background-color: green;
+}
+section :nth-child(2){
+  background-color: khaki;
+}
+section :nth-child(3){
+  background-color: slateblue;
+}

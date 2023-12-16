@@ -1,0 +1,9 @@
+body {
+  background-image: url(./10.background.jpg), url(./10.mountain.avif);
+  background-repeat: no-repeat, repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
+  color: blueviolet;
+  padding-left: 20px;
+  padding-top: 70px;
+}

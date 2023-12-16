@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>JavaScript let</h2>
+    <p>Redeclaring a variable with<b>let</b>, in another scope, or in another block, is allowed:</p>
+    <p id="demo"></p>
+    <script>
+      let x = 2;
+      {
+        let x = 3;
+      }
+      {
+        let x = 4;
+      }
+      document.getElementById("demo").innerHTML = x;
+    </script>
+  </body>
+</html>

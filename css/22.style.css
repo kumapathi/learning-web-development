@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(175, 9, 42);
+  color: rgb(251, 240, 252);
+  margin: 70px;
+  padding: 20px;
+  outline: 1px outset rgb(105, 173, 105);
+  border-radius: 10px;
+  box-shadow: inset;
+  font-style: normal;
+  font-size: larger;
+}
+
+ul li {
+  list-style: none;
+  height: 2rem;
+  width: 150px;
+  margin: 10px;
+  border-radius: 20px;
+  font-style: bold;
+  font-size: large;
+  background-color: darkslategrey;
+  color: rgb(4, 247, 247);
+  background-image: url(./7.new.jpg);
+  background-size: 1em;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+ol li {
+  width: 150px;
+  margin: 10px;
+  border-radius: 20px;
+  font-style: italic;
+  font-size: large;
+  background-color: cornflowerblue;
+  color: blue;
+  list-style: none;
+  height: 25px;
+  background-image: url(./hand.png);
+  background-size: 1em;
+  background-position: 7px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}

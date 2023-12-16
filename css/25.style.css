@@ -1,0 +1,22 @@
+p{
+  background-color: greenyellow;
+  border: 5px solid green ;
+  margin: 20px;
+}
+h1{
+  background-color: blueviolet;
+  border: 5px solid blue;
+  margin: 20px;
+  display: none;
+}
+div{
+  background-color: blueviolet;
+  border: 5px solid blue ;
+  margin: 20px;
+}
+h2{
+  background-color: greenyellow;
+  border: 5px solid green;
+  margin: 20px;
+  visibility: hidden;
+}

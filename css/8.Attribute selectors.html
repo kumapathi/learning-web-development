@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="8.Styles.css">
+    <title>Attribute selectors</title>
+  </head>
+  <body>
+    <form>
+    <label>First Name<br>
+      [Attribute] Select elements with a specified attribute 
+    </label><br><br>
+    <input type="text"/><br><br>
+    <input type="button" value="Submit"/>
+  </form>
+
+  <p class="sample">1: <br>Attribute selectors</p>
+  <p class="sample"> [attribute="value"]</p>
+  <p class="sample"> Select elements with a specified attribute & value</p>
+
+  <p class="a demo">2 :<br> Attribute selectors</p>
+  <p class="a"> [attribute="value"]</p>
+  <p class="a-demo"> Select elements with a specified attribute & value</p>
+
+  <p class="b demo">3:<br> '~' (tilted symble)Attribute selectors</p>
+  <p class="b"> [attribute~="value"]</p>
+  <p class="b-demo"> Select elements with an attribute valu containging a specified word</p>
+
+  <p class="c emo">4: <br> '|'(pipe line symble)Attribute selectors</p>
+  <p class="c"> [attribute|="value"]</p>
+  <p class="c-emo"> Select elements with the specified attribute starting with the specified value</p>
+  <p class="emo-c">sample word</p>
+  <p class="emo c">sample word</p>
+
+  <p class="d sample">5: <br> '^'(cap symble)Attribute selectors</p>
+  <p class="d"> [attribute^="value"]</p>
+  <p class="d-sample"> Select elements whose attribute value begins with a specified value</p>
+  <p class="sample-d">sample word</p>
+  <p class="sample d">sample word</p>
+ 
+
+  <p class="demo f">6: <br>'$'(dollor symble)Attribute selectors</p>
+  <p class="f"> [attribute$="value"]</p>
+  <p class="f-demo"> Select elements whose attribute value ends with a specified value</p>
+  <p class="sample-f">sample word</p>
+  <p class="sample f">sample word</p>
+
+  <p class="g demo-dl">7: <br> '*'(star symble)Attribute selectors</p>
+  <p class="g"> [attribute*="value"]</p>
+  <p class="g-demo"> Select elements whose attribute value contains a specified value</p>
+  <p class="sample dl-g">sample word</p>
+  <p class="sample dl g">sample word</p>
+
+  
+  </body>
+</html>

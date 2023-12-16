@@ -1,0 +1,40 @@
+.stu-form {
+  background-color: royalblue;
+  color: cornsilk;
+  padding: 20px;
+  border: 3px solid rgb(230, 112, 112);
+  border-radius: 5px;
+  width: 650px;
+}
+
+label {
+  font-size: 16px;
+  font-style: italic;
+}
+
+input[type="text"] {
+  width: 97%;
+  background-color: cornsilk;
+  border: 3px solid rgb(230, 112, 112);
+  height: 20px;
+  border-radius: 30px;
+}
+
+select {
+  width: 98%;
+  background-color: cornsilk;
+  border: 3px solid rgb(230, 112, 112);
+  height: 28px;
+  border-radius: 30px;
+  color: darkmagenta;
+  
+}
+
+input[type="submit"] {
+  width: 98%;
+  background-color: cornsilk;
+  border: 3px solid rgb(230, 112, 112);
+  height: 28px;
+  border-radius: 30px;
+  color: darkmagenta;
+}

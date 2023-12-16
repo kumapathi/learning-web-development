@@ -1,0 +1,74 @@
+div{
+  background-color: orangered;
+  color: antiquewhite;
+  border: 5px solid blue;
+  padding: 5px 100px;
+  width: 350px;
+  height: 25px;
+}
+p{
+  background-color: mediumspringgreen;
+  color: red;
+  border: 5px solid green;
+  padding: 5px 50px;
+  width: 60%;
+  height: 35%;
+}
+h1{
+  background-color: cornsilk;
+  color: brown;
+  font-size: 15px;
+  border: 5px solid purple;
+  padding: 5px 50px;
+  max-width: 400px;
+  width: 50px;
+}
+h2{
+  background-color: chartreuse;
+  color: blue;
+  font-size: 15px;
+  border: 5px solid orangered;
+  padding: 5px 50px;
+  min-width: 100px;
+  width: 150px;
+}
+h3{
+  background-color: cornflowerblue;
+  color: purple;
+  font-size: 15px;
+  border: 5px solid blue;
+  padding: 5px 50px;
+  max-height: 200px;
+  height: 150px;
+}
+h4{
+  background-color: fuchsia;
+  color: greenyellow;
+  font-size: 15px;
+  border: 5px solid cyan;
+  padding: 5px 50px;
+  min-height: 100px;
+  height: 200px;
+}
+h5{
+  background-color: yellow;
+  color: fuchsia;
+  font-size: 15px;
+  border: 5px solid orangered;
+  padding: 5px 50px;
+  max-width: 400px;
+  width: 399px;
+  max-height: 200px;
+  height: 199px;
+}
+h6{
+  background-color: brown;
+  color: gainsboro;
+  font-size: 15px;
+  border: 5px solid yellow;
+  padding: 5px 50px;
+  min-width: 400px;
+  width: 401px;
+  min-height: 200px;
+  height: 201;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    
+    <h1>JavaScript String Methods</h1>
+    <h2>JavaScript String Padding</h2>
+    <h3>The padStart() Method</h3>
+
+    <p>The padStart() method pads a string from the start.</p>
+    <p>It pads the string with another string (multiple times) until it reaches a given lenght.</p>
+
+    <p id="demo"></p>
+
+    <script>
+      let text = "5";
+      text = text.padStart(4, "0");
+
+      document.getElementById("demo").innerHTML = text;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+p::first-line{
+  background-color: burlywood;
+  color: blue;
+  font-style: italic;
+}
+div::first-letter{
+  background-color: crimson;
+  color:greenyellow;
+  font-size: larger;
+}
+div::before{
+  content: "Before add me" url(7.logo.png) url(7.new.jpg);
+
+}
+div::after{
+  content: "After add me" url(7.logo.png) url(7.new.jpg);
+}
+::marker{
+  color: orangered;
+  font-size: larger;
+  font-weight: bold;
+  border: 2px;
+}
+
+::selection{
+  background-color: darkorange;
+  color: chartreuse;
+}
+
+

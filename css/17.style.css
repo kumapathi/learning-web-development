@@ -1,0 +1,22 @@
+body{
+  background-color: cadetblue;
+  color: blue;
+  font-size: 20px;
+}
+p{
+  border: 5px solid khaki;
+  margin: 50px;
+  padding: 30px;
+  outline-width: 10px;
+  outline-style: dotted;
+  outline-color: orangered;
+ 
+}
+div{
+  border: 20px solid darkorange;
+  border-radius: 1px;
+  margin: 80px;
+  padding: 30px;
+  outline: 60px outset yellow;
+  outline-offset: 20px;
+}

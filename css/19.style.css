@@ -1,0 +1,15 @@
+h1{
+  font-style: italic;
+  font-size: 20px;
+}
+h2{
+  font-weight: normal;
+  font-size: 20px;
+}
+h3{
+  font-size: 4vw;
+}
+p{
+  font-family: 'Dancing Script', cursive;
+  font-size: 5vw;
+}

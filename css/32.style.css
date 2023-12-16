@@ -1,0 +1,40 @@
+.data {
+  float: left;
+  /* float: right; */
+  /* float: none; */
+  /* float: inherit; */
+}
+
+.img-width {
+  width: 500px;
+  height: 500px;
+  /* float: left; */
+  float: right;
+  /* float: none; */
+  /* float: inherit; */
+}
+
+.first-div {
+  border: 2px solid goldenrod;
+  /* float: left; */
+  /* float: both; */
+  /* float: inherit; */
+  float: right;
+}
+
+.second-div {
+  border: 3px solid blue;
+  /* float: left; */
+  /* clear: both; */
+  /* float: inherit; */
+  clear: right;
+  padding: 25px;
+}
+
+p {
+  border: 5px solid green;
+  padding: 5px 25px 25px 25px;
+  overflow: auto;
+  margin: 0px 160px 0px 160px;
+
+}

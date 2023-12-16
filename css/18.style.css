@@ -1,0 +1,47 @@
+div {
+  color: rgb(00 100 300);
+  text-align: center;
+  unicode-bidi: bidi-override;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  text-decoration: overline;
+}
+
+span {
+  text-decoration: line-through;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: magenta;
+  text-shadow: 1px 1px 6px black;
+}
+
+h2 {
+  text-transform: lowercase;
+}
+
+h3 {
+  text-transform: capitalize;
+}
+
+h4 {
+  text-indent: 100px;
+ 
+  word-spacing: 10px;
+}
+
+h5 {
+  letter-spacing: 5px;
+  white-space: nowrap;
+}
+
+h6 {
+  line-height: 30px;
+  text-shadow: 2px 2px 2px khaki;
+}

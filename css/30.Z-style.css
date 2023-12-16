@@ -1,0 +1,48 @@
+  img{ 
+  position: absolute;
+  top: 0px;
+  z-index: -0;
+}
+h1{
+  position: absolute;
+  z-index: 1;
+  top: 150px;
+  text-align: left;
+  width: 900px;
+  color: aquamarine;
+  } 
+
+.container{
+  position: relative;
+}
+.red-box{
+  position: absolute;
+  border: 2px solid red;
+  background-color: lightpink;
+  height: 40px;
+  margin: 10px;
+  width: 500px;
+  z-index: 3;
+}
+.green-box{
+  position: absolute;
+  border: 3px solid green;
+  background-color: lightgreen;
+  height: 40px;
+  margin: 25px;
+  width: 600px;
+  left: 75px;
+  top: 25px;
+  z-index: 1;
+}
+.blue-box{
+  position: absolute;
+  border: 4px solid blue;
+  background-color: darkgray;
+  height: 40px;
+  margin: 30px;
+  width: 720px;
+  left: 150px;
+  top: 50px;
+  z-index: 2;
+}

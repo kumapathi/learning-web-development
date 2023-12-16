@@ -1,0 +1,20 @@
+body{
+  background-color: darkslategrey;
+}
+p {
+  background-color: burlywood;
+  color: mediumslateblue;
+  border: 10px solid blueviolet;
+  margin: 20px;
+  padding: 30px;
+  height: 440px;
+}
+
+div{
+  background-color: burlywood;
+  color: mediumslateblue;
+  border: 15px solid blueviolet;
+  margin: 25px;
+  padding: 50px;
+  width: 500px;
+}

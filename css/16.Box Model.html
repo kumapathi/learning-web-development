@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="16.style.css">
+  <title>CSS Box Model</title>
+</head>
+
+<body>
+  <p>CSS Box = margins + borders + padding + height + width of an element. <br>
+    All HTML Elements can be considered as boxes. <br>
+    CSS Box that wraps around every HTML Element. <br>
+    CSS Box can be used as a toolkit for customizing the layout of different elements. <br><br>
+
+    How to Calculate Actual Height of an HTML Element? <br>
+    ex:- p{ <br>
+    border: 10px solid orange; <br>
+    margin: 20px; <br>
+    padding: 30px; <br>
+    height: 440px; <br>
+    } <br><br>
+    Actual Height <br>
+    = 440px(height) <br>
+    + 40px(top + bottom margin) <br>
+    + 20px(top + bottom border) <br>
+    + 60px(tpp + bottom padding) <br>
+    = 245px <br>
+    Actual Height = Height of an element + marign (top + bottom value) + padding (top + bottom value) + border (top + bottom value); <br> <br>
+    440px + 40px + 20px = 600px + 60px = 660px
+    <br>
+  </p>
+
+  <div>
+    How to Calculate Actual Width of an HTML Element? <br>
+    ex:- p{ <br>
+    border: 5px solid red; <br>
+    margin: 75px; <br>
+    padding: 45px; <br>
+    width: 200px; <br>
+    } <br><br>
+
+    Actual Width <br>
+    = 200px(Width) <br>
+    + 150px(top + bottom margin) <br>
+    + 10px(top + bottom border) <br>
+    + 90px(tpp + bottom padding) <br>
+    = 450px <br><br>
+
+    Actual width = width of an element + marign (left + right value) + padding (left + right value) + border (left +
+    right value); <br><br>
+    
+    500px + 50px + 100px + 30px = 680px
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+/* body{
+ background-color: peru;
+ } */
+
+/* body{
+  background-image: url(10.mountain.avif);
+} */
+
+/* body{
+   background-image: url(10.background.jpg);  
+   color: greenyellow; */
+  /* background-repeat: url(10.background.jpg); */
+  /* background-repeat: no-repeat;  */
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y;  */
+ /* } */
+
+/* body{
+  background-image: url(10.background.jpg); 
+  background-repeat: no-repeat;
+  background-attachment:scroll; 
+  background-attachment: fixed;  
+} */
+
+body{
+  background-image: url(./10.single-flower-green.webp); 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-position-x:   200px; 
+  background-position-y: 100px;  
+  background-position: right; 
+  background-position: left;
+  background-position: top;
+  background-position: bottom;
+}
