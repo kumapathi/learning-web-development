@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    
+    <h1>JavaScript String Search Methods</h1>
+    <h2>The matchAll(/cats/g)</h2>
+
+    <p>If the parameter is a regular expression, the global flag(g) must be set, otherwise a TypeError is thrown.</p>
+
+    <p>ES2020 intoduced the string method matchAll().</p>
+
+    <p id="demo"></p>
+
+    <script>
+      let text = "I love cats. Cats are very easy to love. Cats are very popular."
+      const iterator = text.matchAll(/Cats/g);
+      
+      document.getElementById("demo").innerHTML = Array.from(iterator);
+    </script>
+  </body>
+</html>

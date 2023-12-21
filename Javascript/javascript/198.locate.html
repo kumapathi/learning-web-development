@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    
+    <h1>JavaScript String Search Methods</h1>
+    <h2>The search() Method</h2>
+
+    <p>The search() method returns the position of the first occurrence of a string in a string.</p>
+
+    <p>Return the position of the first occurrence of a regular expression:</p>
+
+    <p id="demo"></p>
+
+    <script>
+      let text = "Please locate where 'locate' occurs!";
+      let search = text.search(/locate/);
+      document.getElementById("demo").innerHTML = search;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>JavaScript Numbers</h1>
+
+    <p>Numbers and number objects cannot be safely compared:</p>
+
+    <p id="demo"></p>
+
+    <script>
+      let x = 500;
+      let y = new Number(500);
+      document.getElementById("demo").innerHTML = (x===y);
+    </script>
+  </body>
+</html>

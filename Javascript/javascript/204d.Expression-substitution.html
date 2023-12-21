@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    
+    <h1>JavaScript Template Literals</h1>
+    <h2>Expression Substitution</h2>
+
+    <p>Template literals allow expression in strings:</p>
+
+    <p id="demo"></p>
+
+    <p>Template literals are not supported in Internet Explorer</p>
+
+    <script>
+      let price = 10;
+      let VAT = 0.25;
+      
+      let total = `Total: ${(price * (1 + VAT)).toFixed(2)}`;
+
+      document.getElementById("demo").innerHTML = total;
+
+    </script>
+  </body>
+</html>
