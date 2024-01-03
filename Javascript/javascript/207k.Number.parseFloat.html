@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>JavaScript Numbers</h1>
+    <h2>The parseFloat() Method</h2>
+
+    <p>Number.parseFloat() converts to numbers:</p>
+
+    <p id="demo"></p>
+
+    <script>
+      document.getElementById("demo").innerHTML = 
+      Number.parseFloat("10") + "<br>" +
+      Number.parseFloat("10.33") + "<br>" +
+      Number.parseFloat("10 20 30") + "<br>" +
+      Number.parseFloat("10 years") + "<br>" +
+      Number.parseFloat("years 10")
+    </script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>JavaScript Arrays</h1>
+    <h2>Looping an Array</h2>
+
+    <p id="demo"></p>
+
+    <script>
+      const fruits = ["Banana", "Orange", "Apple", "Mango",];
+      let fLen = fruits.length;
+
+      let text = "<ul>";
+        for (let a = 0; a < fLen; a++) {
+          text += "<li>" + fruits[a] + "</li>"
+        }
+        text += "</ul>";
+
+        document.getElementById("demo").innerHTML = text;
+    </script>
+  </body>
+</html>
